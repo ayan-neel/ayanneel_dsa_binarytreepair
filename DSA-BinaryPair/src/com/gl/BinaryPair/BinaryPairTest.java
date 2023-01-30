@@ -6,10 +6,10 @@ public class BinaryPairTest {
 
 	public static void  main(String [] args)
 	{
-		Integer list[]= {100,110,90,80,40,60};
+		Integer list[]= {100,110,75,80,40,60};
 		BST tree=binaryTreeGen(list);
 		BinaryPairFinder finder = new BinaryPairFinder(tree);
-		finder.findPair(10);
+		finder.findPair(150);
 	}
 	
 	public static BST binaryTreeGen(Integer[]list)
